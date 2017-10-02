@@ -12,6 +12,6 @@ build_develop:
   tags:
     - dockerhttp
   script:
-    - docker build -f ./staging.Dockerfile -t $CONTAINER_STAGING_IMAGE .
+    - docker build -t $CONTAINER_STAGING_IMAGE .
     - docker push $CONTAINER_STAGING_IMAGE
 
