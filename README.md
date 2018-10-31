@@ -16,4 +16,4 @@ docker build . -t <your_dockerhub_name>/<your_dockerhub_repo>
 docker push <your_dockerhub_name>/<your_dockerhub_repo>
 ```
 
-You all set!
+You're all set!
